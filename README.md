@@ -22,15 +22,15 @@ Creation of a machine learning models to best classify candidate exoplanets from
 - Best Testing Score (r2) = 0.89244
 - With Hypertuning (r2) = 0.89585
 
-                precision    recall  f1-score   support
-
-     CANDIDATE       0.84      0.80      0.82       422
-     CONFIRMED       0.82      0.84      0.83       450
-FALSE POSITIVE       0.99      1.00      0.99       876
-
-     micro avg       0.91      0.91      0.91      1748
-     macro avg       0.88      0.88      0.88      1748
-  weighted avg       0.91      0.91      0.91      1748
+|               | precision  |  recall |  f1-score |  support |
+|    :----:     |  :----:    |  :----: |   :----:  |  :----:  |
+|     CANDIDATE |   0.84     |   0.80  |    0.82   |    422   |
+|     CONFIRMED |   0.82     |   0.84  |    0.83   |    450   |
+|FALSE POSITIVE |   0.99     |   1.00  |    0.99   |    876   |
+|               |            |         |           |          |
+|     micro avg |   0.91     |   0.91  |   0.91    |   1748   |
+|     macro avg |   0.88     |   0.88  |   0.88    |   1748   |
+|  weighted avg |   0.91     |   0.91  |   0.91    |   1748   |
 
 
 ### Decision Tree Classifier

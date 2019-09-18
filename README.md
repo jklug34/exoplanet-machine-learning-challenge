@@ -20,22 +20,26 @@ https://www.kaggle.com/nasa/kepler-exoplanet-search-results
 ## The best model after hypertuning parameter was the Random Forest Classifier
 
 - All models were better at predicting False Positives than Confirmed or Canidate Exoplanets
+- The best features for prediction were the signal to noise ratio, planetary radius and the false positive flags
 
 
 
 #### Confusion Matrix
 
-|        |      |            Predicted             |
+|        |      |                 |    Predicted   |
 | :----: |:----:|   :----:        |   :----:       |
 |        |      |         0       |       1        |
 |        | 0    | True Negative   | False Positive |
 | Actual | 1    | False Negative  | True Positive  |
 
 
-Precision = This is the rate of values that measures the accuracy of positive predictions. So when we divide True Positives, by total positives, we get the precision value
-Recall = This is the rate of values that measures positive instances that were correctly identified by the classifier. It is also called sensitivity, or the true positive rate. Thus recall is (True Positive)/(True Positive+False Negative)
-F1 Score = It is the harmonic mean of precision and recall  2/(1/precision + (1/recall)
-Support = Number of data points
+- Precision = This is the rate of values that measures the accuracy of positive predictions. So when we divide True Positives, by total positives, we get the precision value
+
+- Recall = This is the rate of values that measures positive instances that were correctly identified by the classifier. It is also called sensitivity, or the true positive rate. Thus recall is (True Positive)/(True Positive+False Negative)
+
+- F1 Score = It is the harmonic mean of precision and recall  2/(1/precision + (1/recall)
+
+- Support = Number of data points
 
 
 

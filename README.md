@@ -2,6 +2,9 @@
 Creation of a machine learning models to best classify candidate exoplanets from NASA's Kepler space telescope
 
 
+![exoplanets](https://user-images.githubusercontent.com/48166327/65096610-67aae000-d97a-11e9-8119-81c40f0cc136.jpg)
+
+
 #### Link to raw data
 https://www.kaggle.com/nasa/kepler-exoplanet-search-results
 
